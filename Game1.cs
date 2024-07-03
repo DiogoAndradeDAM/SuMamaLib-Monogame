@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
+using SuMamaLib.Input;
+
 namespace SuMamaLib_Monogame;
 
 public class Game1 : Game
@@ -19,6 +21,7 @@ public class Game1 : Game
     protected override void Initialize()
     {
         // TODO: Add your initialization logic here
+		Input.Initialize();
 
         base.Initialize();
     }
@@ -34,6 +37,8 @@ public class Game1 : Game
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
+
+		Input.Update();
 
         // TODO: Add your update logic here
 

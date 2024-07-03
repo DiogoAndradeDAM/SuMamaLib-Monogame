@@ -1,0 +1,12 @@
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\bin\Debug\net6.0\SuMamaLib-Monogame.deps.json
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\bin\Debug\net6.0\SuMamaLib-Monogame.dll
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\bin\Debug\net6.0\SuMamaLib-Monogame.pdb
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\obj\Debug\net6.0\SuMamaLib-Monogame.csproj.AssemblyReference.cache
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\obj\Debug\net6.0\SuMamaLib-Monogame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\obj\Debug\net6.0\SuMamaLib-Monogame.AssemblyInfoInputs.cache
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\obj\Debug\net6.0\SuMamaLib-Monogame.AssemblyInfo.cs
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\obj\Debug\net6.0\SuMamaLib-Monogame.csproj.CoreCompileInputs.cache
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\obj\Debug\net6.0\SuMamaLib-Monogame.dll
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\obj\Debug\net6.0\refint\SuMamaLib-Monogame.dll
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\obj\Debug\net6.0\SuMamaLib-Monogame.pdb
+C:\Programacao\SuMamaLib-Monogame\SuMamaLib-Monogame\obj\Debug\net6.0\ref\SuMamaLib-Monogame.dll
