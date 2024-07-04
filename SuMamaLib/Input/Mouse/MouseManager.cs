@@ -52,6 +52,11 @@ namespace SuMamaLib.Input.MouseInput
 			return _prev.ScrollWheelValue - _curr.ScrollWheelValue != 0;
 		}
 
+		public bool ScrollWhellValueIncreased()
+		{
+			return _curr.ScrollWheelValue - _prev.ScrollWheelValue > 0;
+		}
+
 		// LeftButton
 
 		public bool LmbIsPressed()
