@@ -20,7 +20,7 @@ namespace SuMamaLib.Items2D
 		public Sprite(Texture2D texture)
 		{
 			if(texture != null) { Texture = texture; }
-			else { throw new ArgumentNullException(); }
+			else { throw new ArgumentNullException("The Texture2D in Sprite is null"); }
 
 			Width = texture.Width;
 			Height = texture.Height;
@@ -34,7 +34,7 @@ namespace SuMamaLib.Items2D
 		public Sprite(Texture2D texture, Vector2 scale)
 		{
 			if(texture != null) { Texture = texture; }
-			else { throw new ArgumentNullException(); }
+			else { throw new ArgumentNullException("The Texture2D in Sprite is null"); }
 
 			Width = texture.Width;
 			Height = texture.Height;
@@ -48,7 +48,7 @@ namespace SuMamaLib.Items2D
 		public Sprite(Texture2D texture, Vector2 scale, Color color)
 		{
 			if(texture != null) { Texture = texture; }
-			else { throw new ArgumentNullException(); }
+			else { throw new ArgumentNullException("The Texture2D in Sprite is null"); }
 
 			Width = texture.Width;
 			Height = texture.Height;
