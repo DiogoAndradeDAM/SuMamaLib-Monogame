@@ -3,10 +3,11 @@ using System;
 using Microsoft.Xna.Framework;
 
 using SuMamaLib.Items2D;
+using SuMamaLib.Behaviour.Interfaces;
 
 namespace SuMamaLib.Behaviour
 {
-    public abstract class GameObject : IDrawable, IUpdateable, IDisposable
+    public abstract class GameObject : IDraw, IUpdate, IDisposable
     {
 		protected int _drawOrder;
 		protected int _updateOrder;
@@ -89,7 +90,7 @@ namespace SuMamaLib.Behaviour
         }
 
 		// Draw the GameObject
-        public virtual void Draw(GameTime gameTime)
+        public virtual void Draw()
         {
         }
 
@@ -98,5 +99,6 @@ namespace SuMamaLib.Behaviour
         {
 			GC.SuppressFinalize(this);
         }
+
     }
 }

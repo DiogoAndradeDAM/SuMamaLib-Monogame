@@ -71,7 +71,6 @@ namespace SuMamaLib.Input.MouseInput
 
 		public bool LmbWasPressed()
 		{
-			Console.WriteLine(_curr.LeftButton == ButtonState.Pressed && !(_prev.LeftButton == ButtonState.Pressed));
 			return _curr.LeftButton == ButtonState.Pressed && !(_prev.LeftButton == ButtonState.Pressed);
 		}
 
